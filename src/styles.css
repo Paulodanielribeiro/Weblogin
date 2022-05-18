@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+#redirect-link{
+  background-color:#c44d56;
+  width: 400px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  color:white;
+  font-family: 'bold';  
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+
+form {
+    width: 400px;
+    margin: 50px auto 0 auto;
+    box-shadow: 5px 5px 7px #cbce4f, -1px -1px 2px #cbce4f;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form div {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+form label {
+    font-family: 'regular';
+}
+
+form input {
+    margin-left: auto;
+    height: 35px;
+    width: 280px;
+    border-radius: 5px;
+    border: 3px solid #2db53d;
+    font-family: 'regular';
+    font-size: 100%;
+    padding: 0 5px;
+}
+
+form-input :focus {
+    outline: 3px solid #55c9ec;
+}
+
+form button {
+    display: block;
+    width: 150px;
+    margin: 20px auto 0 auto;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: 'bold';
+    font-size: 100%;
+    color: white;
+    background-color: #2d55ff;
+}
+
+#error-message {
+    width: 400px;
+    margin: 20px auto;
+    font-family: 'bold';
+    color: white;
+    background-color: #765d69;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+}
